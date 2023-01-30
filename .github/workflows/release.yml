@@ -6,8 +6,11 @@ on:
       - "*"
   workflow_dispatch:
 
-jobs:
+permissions:
+  id-token: write
+  contents: write
 
+jobs:
   build-release:
     runs-on: ubuntu-latest
     steps:
