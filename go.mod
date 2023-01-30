@@ -3,14 +3,14 @@ module github.com/IrineSistiana/mosdns/v4
 go 1.18
 
 require (
-	github.com/AdguardTeam/dnsproxy v0.46.2
+	github.com/AdguardTeam/dnsproxy v0.46.5
 	github.com/Knetic/govaluate v3.0.0+incompatible
 	github.com/fsnotify/fsnotify v1.6.0
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/golang/snappy v0.0.4
 	github.com/google/nftables v0.0.0-20221029063419-3ad45c080caa
 	github.com/kardianos/service v1.2.2
-	github.com/lucas-clemente/quic-go v0.30.0
+	github.com/lucas-clemente/quic-go v0.31.0
 	github.com/miekg/dns v1.1.50
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/nadoo/ipset v0.5.0
