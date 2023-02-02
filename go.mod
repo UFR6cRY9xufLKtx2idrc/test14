@@ -10,7 +10,7 @@ require (
 	github.com/golang/snappy v0.0.4
 	github.com/google/nftables v0.0.0-20221029063419-3ad45c080caa
 	github.com/kardianos/service v1.2.2
-	github.com/quic-go/quic-go v0.32.0
+	github.com/lucas-clemente/quic-go v0.32.0
 	github.com/miekg/dns v1.1.50
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/nadoo/ipset v0.5.0
@@ -48,7 +48,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/native v1.1.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
-	github.com/lucas-clemente/quic-go v0.32.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-18 v0.2.0 // indirect
 	github.com/quic-go/qtls-go1-19 v0.2.0 // indirect
@@ -79,4 +78,5 @@ require (
 
 replace (
 	github.com/nadoo/ipset v0.5.0 => github.com/IrineSistiana/ipset v0.5.1-0.20220703061533-6e0fc3b04c0a
+	github.com/lucas-clemente/quic-go v0.32.0 => github.com/quic-go/quic-go v0.32.0
 )
