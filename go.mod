@@ -79,5 +79,4 @@ require (
 
 replace (
 	github.com/nadoo/ipset v0.5.0 => github.com/IrineSistiana/ipset v0.5.1-0.20220703061533-6e0fc3b04c0a
-	github.com/lucas-clemente/quic-go v0.32.0 => github.com/quic-go/quic-go v0.32.0
 )
