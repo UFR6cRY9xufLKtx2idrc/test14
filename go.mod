@@ -48,6 +48,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/josharian/native v1.1.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
+	github.com/lucas-clemente/quic-go v0.32.0 // indirect
 	github.com/quic-go/qpack v0.4.0 // indirect
 	github.com/quic-go/qtls-go1-18 v0.2.0 // indirect
 	github.com/quic-go/qtls-go1-19 v0.2.0 // indirect
@@ -78,4 +79,5 @@ require (
 
 replace (
 	github.com/nadoo/ipset v0.5.0 => github.com/IrineSistiana/ipset v0.5.1-0.20220703061533-6e0fc3b04c0a
+	github.com/lucas-clemente/quic-go v0.32.0 => github.com/quic-go/quic-go v0.32.0
 )
