@@ -22,7 +22,6 @@ package server
 import (
 	"crypto/rand"
 	"crypto/tls"
-	"github.com/AdguardTeam/dnsproxy/upstream"
 	"github.com/IrineSistiana/mosdns/v4/pkg/server/dns_handler"
 	"github.com/IrineSistiana/mosdns/v4/pkg/server/http_handler"
 	"github.com/IrineSistiana/mosdns/v4/pkg/utils"
