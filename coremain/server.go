@@ -22,9 +22,9 @@ package coremain
 import (
 	"errors"
 	"fmt"
-	"github.com/IrineSistiana/mosdns/v4/pkg/server"
-	"github.com/IrineSistiana/mosdns/v4/pkg/server/dns_handler"
-	"github.com/IrineSistiana/mosdns/v4/pkg/server/http_handler"
+	"../pkg/server"
+	"../pkg/server/dns_handler"
+	"../pkg/server/http_handler"
 	"github.com/pires/go-proxyproto"
 	"go.uber.org/zap"
 	"net"
