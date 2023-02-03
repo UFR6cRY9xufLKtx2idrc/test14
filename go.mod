@@ -1,4 +1,4 @@
-module github.com/UFR6cRY9xufLKtx2idrc/test14/v4
+module github.com/IrineSistiana/mosdns/v4
 
 go 1.20
 
