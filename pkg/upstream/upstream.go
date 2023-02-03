@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"github.com/IrineSistiana/mosdns/v4/pkg/dnsutils"
 	"github.com/IrineSistiana/mosdns/v4/pkg/upstream/bootstrap"
-	"github.com/IrineSistiana/mosdns/v4/pkg/upstream/doh"
+	"./doh"
 	"github.com/IrineSistiana/mosdns/v4/pkg/upstream/transport"
 	"github.com/miekg/dns"
 	"github.com/quic-go/quic-go"
